@@ -1,0 +1,1 @@
+package com.cdl.basicauth.data.dto;import com.cdl.basicauth.data.model.AppUser;import lombok.AllArgsConstructor;import lombok.Data;import lombok.RequiredArgsConstructor;@Data@AllArgsConstructor@RequiredArgsConstructorpublic class UserResponseDto {    private AppUser user;    private String token;}

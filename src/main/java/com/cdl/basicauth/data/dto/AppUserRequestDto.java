@@ -1,0 +1,1 @@
+package com.cdl.basicauth.data.dto;import lombok.Data;import lombok.NoArgsConstructor;import javax.validation.constraints.NotNull;@Data@NoArgsConstructorpublic class AppUserRequestDto {//    @NotNull(message = "username cannot be null")    private String userName;//    @NotNull(message = "password cannot be null")    private String password;}
