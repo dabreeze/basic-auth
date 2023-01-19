@@ -1,0 +1,1 @@
+package com.authentication.loan_mandate.data;import lombok.AllArgsConstructor;import lombok.Data;import lombok.NoArgsConstructor;import lombok.Value;import java.math.BigDecimal;@Valuepublic class LoanMandateGroupDto {    String batchNumber;    BigDecimal totalAmount;    Data startDate;    Long total;}

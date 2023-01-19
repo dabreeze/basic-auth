@@ -1,0 +1,1 @@
+truncate table user;create database if not exists auth_db;create user if not exists 'root'@'localhost' identified by 'mysql';grant all privileges on auth_db.* to 'root'@'localhost';flush privileges ;

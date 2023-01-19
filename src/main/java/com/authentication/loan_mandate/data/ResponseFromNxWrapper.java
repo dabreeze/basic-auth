@@ -1,0 +1,1 @@
+package com.authentication.loan_mandate.data;import lombok.AllArgsConstructor;import lombok.Data;import lombok.RequiredArgsConstructor;@Data@AllArgsConstructor@RequiredArgsConstructorpublic class ResponseFromNxWrapper {    private boolean status;    private String message;    private String data;}

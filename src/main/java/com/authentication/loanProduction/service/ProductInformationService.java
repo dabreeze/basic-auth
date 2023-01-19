@@ -1,0 +1,1 @@
+package com.authentication.loanProduction.service;import com.authentication.loanProduction.domain.model.ProductInformation;import java.util.List;public interface ProductInformationService {    List<ProductInformation> generateInfo();}

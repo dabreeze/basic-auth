@@ -1,0 +1,1 @@
+package com.authentication.cdlauthentication.data;import com.authentication.cdlauthentication.domain.model.AppUser;import lombok.AllArgsConstructor;import lombok.Data;import lombok.RequiredArgsConstructor;@Data@AllArgsConstructor@RequiredArgsConstructorpublic class UserResponseDto {    private AppUser user;    private String token;}

@@ -1,0 +1,1 @@
+package com.authentication.loanProduction.domain.repository;import com.authentication.loanProduction.domain.model.ProductInformation;import org.springframework.data.jpa.repository.JpaRepository;import org.springframework.stereotype.Repository;@Repositorypublic interface ProductInformationRepo extends JpaRepository<ProductInformation,Long> {}
